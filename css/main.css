@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    
+    min-height: 500px;   
+}
+
+
+.cta{
+    background: rgba(183, 173, 173, 0.42);
+    border-radius:12px;
+    font-weight: 300;
+   
+}
+
+
+.fa-heartbeat{
+    font-size: 3em;
+}
+
+#besidejumiaDIV{
+            width:66%;
+            border-radius: 50px 0 0 50px;
+            padding:30px;
+    }
+
+.nav-wrapper{
+    box-shadow: 1px 1px black;
+    position:fixed;
+    z-index: 3000;
+}
+
+#up-body{
+   background: white;
+    position: fixed;
+    z-index: 3000;
+    border-radius: 0 20px;
+}
+
+.hoverable-large{
+    -webkit-transition: all ease-out 0.4s;
+    -moz-transition:all ease-out 0.4s;
+    
+}
+
+.hoverable-large:hover{
+    width:380px;
+    height: 460px;
+    background: #303F9F;
+    color:white;
+    border-radius: 100px;
+    
+
+}
+
+.awesome{
+    color: #303F9F;
+    
+}
+
+.awesome:hover{
+    color:white;
+}
+
+.centerCard:hover{
+     width:360px;
+    height: 410px;
+}
+
+.smallCard:hover{
+     width:350px;
+    height: 350px;
+    
+}
+
+.smallCard{
+        -webkit-transition: all ease-in 0.4s;
+
+}
+
+.centerCard{
+        -webkit-transition: all ease-out 0.4s;
+
+}
+
+
+.gallary{
+    opacity:0.4;
+    width:250px;
+}
+
+.gallary:hover{
+    opacity:1;
+    
+}
+
+.bookBIGdiv{
+    margin-top:50px;
+    background-image: url("../image/British-Airways-breach-1440x974.jpg");
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#aImagine{
+    width:140px;
+}
+
+
+#menu{
+    display:none;
+}
+
+
+
+
+
+.LUCAS{
+    background: blue;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+   
+    .nav-wrapper{
+    position:static;
+    }
+    
+    #up-body{
+    position:static;   
+    }
+    .hoverable-large:hover{
+    width:100%;
+    height: 100%;
+}
+
+.centerCard:hover{
+     width:100%;
+    height: 100%;
+}
+
+.smallCard:hover{
+     width:100%;
+    height: 100%;
+    
+}
+
+}
+
+@media only screen and (max-width: 1495px) {
+     .navlist{
+        font-size:13px;
+    }    
+
+    .hoverable-large:hover{
+    width:100%;
+    height: 100%;
+}
+
+.centerCard:hover{
+     width:100%;
+    height: 100%;
+}
+
+.smallCard:hover{
+     width:100%;
+    height: 100%;
+    
+}
+
+       
+}
+
+@media only screen and (max-width: 1094px) {
+     .navlist{
+        font-size:11px;
+    }    
+
+    .hoverable-large:hover{
+    width:100%;
+    height: 100%;
+}
+
+.centerCard:hover{
+     width:100%;
+    height: 100%;
+}
+
+.smallCard:hover{
+     width:100%;
+    height: 100%;
+    
+}
+}
+
+@media only screen and (max-width: 1178px) {
+     .navlist{
+        font-size:10px;
+
+    }    
+.hoverable-large:hover{
+    width:100%;
+    height: 100%;
+}
+
+.centerCard:hover{
+     width:100%;
+    height: 100%;
+}
+
+.smallCard:hover{
+     width:100%;
+    height: 100%;
+    
+}
+}
+@media only screen and (max-width: 1025px) {
+     .navlist{
+        font-size:9px;
+
+    }    
+.hoverable-large:hover{
+    width:100%;
+    height: 100%;
+}
+
+.centerCard:hover{
+     width:100%;
+    height: 100%;
+}
+
+.smallCard:hover{
+     width:100%;
+    height: 100%;
+    
+}
+}
+@media only screen and (max-width: 1320px) {
+     .air-pic{
+        display:none;
+
+    }    
+.hoverable-large:hover{
+    width:100%;
+    height: 100%;
+}
+
+.centerCard:hover{
+     width:100%;
+    height: 100%;
+}
+
+.smallCard:hover{
+     width:100%;
+    height: 100%;
+    
+}
+}
+
+@media only screen and (max-width: 1467px) {
+    #leftBookDIV{
+        display: none;
+    }
+    #centerDIV{
+        width:100%;
+    }
+    .imagine{
+        width:400px;
+        text-align: center;
+    }
+    .pImagine{
+        font-size: 3em;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #leftBookDIV{
+        display: block;
+    }
+    
+}
+
+
+@media only screen and (max-width:420px){
+    #menu{
+        display:block;
+    }
+}
